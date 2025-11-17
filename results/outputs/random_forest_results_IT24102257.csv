@@ -1,0 +1,2 @@
+Model,MSE,R2,CV R2 Mean,CV R2 Std,Best Params,Runtime (s)
+Random Forest (IT24102257),0.29770817089151297,0.7689087771126879,0.7838313787142143,0.0018124844667122126,"{'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 100}",23.163264989852905

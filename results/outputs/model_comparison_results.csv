@@ -1,0 +1,7 @@
+Model,MSE,R2,CV R2 Mean,CV R2 Std,Best Params,Runtime (s)
+Linear Regression (IT24102297),0.2787,0.7837,0.7945,0.0038,{'fit_intercept': False},0.0602
+Ridge (IT24102225),0.2787,0.7836,0.7945,0.0038,{'alpha': 10.0},0.0592
+SVR (IT24102306),0.2787,0.7836,0.7946,0.0037,"{'C': 0.1, 'epsilon': 0.3, 'kernel': 'linear'}",5.3385
+Random Forest (IT24102257),0.2977,0.7689,0.7838,0.0018,"{'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 100}",23.1633
+KNN (IT24102298),0.3087,0.7604,0.765,0.0029,"{'n_neighbors': 10, 'weights': 'uniform'}",0.3248
+Lasso (IT24102308),0.3093,0.7599,0.7779,0.0,{'lasso__alpha': 0.1},
